@@ -9,6 +9,13 @@
     <script src="./app.js" defer></script>
   </head>
   <body>
-    <div class="page-container"></div>
+    <div class="page-container">
+      <input type="text" id="text" placeholder="Enter text ..." class="input" />
+      <button type="button" onclick="generateQR()">Generate QR</button>
+      <div class="qr-image">
+        <span class="error"></span><br />
+        <img src="" id="img" />
+      </div>
+    </div>
   </body>
 </html>
