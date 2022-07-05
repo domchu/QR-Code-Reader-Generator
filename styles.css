@@ -4,7 +4,10 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
-  background-color: #ececec;
+  background-image: url("/image/niekdesign-oJA3n_U7C24-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,6 +37,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.page-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .page-container .input {
